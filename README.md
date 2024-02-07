@@ -1,2 +1,4 @@
 # CPU_cache_simulation
 Simulates CPU memory management using First in First Out method and Last in First Out method
+
+In computer systems, memory management is crucial for optimizing performance. One key aspect is cache memory, which stores frequently accessed data for quicker retrieval. This Python program simulates a cache memory with two management techniques: FIFO (First in First Out) and LFU (Least Frequently Used).  The cache operates by searching for requested pages in memory. If found, it's a "hit"; if not, it's a "miss," requiring retrieval from disk memory. If the cache is full, a page must be evicted.   The FIFO algorithm evicts the oldest page in the cache, while LFU evicts the least frequently used page. This simulation will help understand and compare the effectiveness of these two techniques in optimizing memory usage and access times.
